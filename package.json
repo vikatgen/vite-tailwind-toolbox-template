@@ -1,28 +1,28 @@
 {
-  "name": "vite-tailwind-toolbox-template",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint . ",
-    "lint:fix": "eslint . --fix",
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
-  },
-  "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "eslint": "^10.4.0",
-    "eslint-config-prettier": "^10.1.8",
-    "globals": "^17.6.0",
-    "prettier": "^3.8.3",
-    "vite": "^8.0.12",
-    "vite-plugin-eslint": "^1.8.1"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.3.0",
-    "tailwindcss": "^4.3.0"
-  }
+    "name": "vite-tailwind-toolbox-template",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint . ",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint": "^10.4.0",
+        "eslint-config-prettier": "^10.1.8",
+        "globals": "^17.6.0",
+        "prettier": "^3.8.3",
+        "vite": "^8.0.12",
+        "vite-plugin-eslint": "^1.8.1"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.3.0",
+        "tailwindcss": "^4.3.0"
+    }
 }
